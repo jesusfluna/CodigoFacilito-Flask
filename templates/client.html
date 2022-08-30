@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+{% block content %}
+    <p>Esto es parte del index</p>
+
+  <ul>
+  {% for name in list_name %}
+
+    <li>{{ name }}</li>
+
+  {% endfor %}
+  </ul>
+
+{% endblock %}
