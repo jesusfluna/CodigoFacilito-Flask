@@ -1,0 +1,27 @@
+{% extends 'base/base.html' %}
+
+{% block title %} {{ title}} {% endblock %}
+
+{% block content %}
+
+    {% from "_macro.html" import render_field%}
+
+<div class="card" style="margin-left: 20%; margin-right: 20%; margin-top: 5%;">
+  <div class="card-body">
+      <form>
+          <div class="mb-3">
+            {{ render_field(form.username, class='form-control')}}<!-- Se le pueden añadir parametros como definicion de una clase class='form-control'-->
+          </div>
+          <br>
+          <div class="mb-3">
+            {{ render_field(form.email, class='form-control')}}
+          </div>
+          <br>
+          <div class="mb-3">
+            {{ render_field(form.comment, class='form-control')}}
+          </div>
+      </form>
+  </div>
+</div>
+
+{% endblock %}

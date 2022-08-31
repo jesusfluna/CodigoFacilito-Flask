@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+
+{% block title %} {{ title}} {% endblock %}
+
+{% block content %}
+
+    {% from "_macro.html" import show_list_h %}
+
+    {{ show_list_h('Hola Paco')}}
+
+    <hr>
+
+    {{ show_list_h(title)}}
+
+    <hr>
+
+{% endblock %}

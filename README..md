@@ -22,3 +22,12 @@ Uso de variables, condicionales y bucles
 
 ## 07-extends
 Uso de la herencia de templates
+
+## 08-estaticos
+importacion de elementos estaticos (bootstrap, css, js, imgs)
+
+## 09-macros
+Ejemplo de uso de macros en html
+
+## 10-formulario
+Uso de un formulario simple
