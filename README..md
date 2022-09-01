@@ -31,3 +31,9 @@ Ejemplo de uso de macros en html
 
 ## 10-formulario
 Uso de un formulario simple
+
+## 11-formulario_datos
+Ampliacion del ejemplo anterior añadiendo la captura de los datos del formulario
+
+## 12-formulario_datos_validacion
+Ampliacion del ejemplo anterior añadiendo la validacion de los datos introducidos en el formulario
