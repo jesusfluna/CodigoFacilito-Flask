@@ -46,3 +46,9 @@ Proteger el formulario de ataques CSRF
 
 ## 15-Cookies
 Uso de cookies
+
+## 16-Sesiones
+Uso y gestion de sesion
+
+## 17-Mensajes flash
+Uso de mensajes flash
