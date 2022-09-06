@@ -52,3 +52,9 @@ Uso y gestion de sesion
 
 ## 17-Mensajes flash
 Uso de mensajes flash
+
+## 18-error404
+pagina de error 404
+
+## 19-AJAX
+Integracion de ajax
