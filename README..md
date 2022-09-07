@@ -58,3 +58,9 @@ pagina de error 404
 
 ## 19-AJAX
 Integracion de ajax
+
+## 20-before_after
+Uso de las directivas before y after
+
+## 21-global
+Variables globales
