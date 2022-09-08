@@ -64,3 +64,9 @@ Uso de las directivas before y after
 
 ## 21-global
 Variables globales
+
+## 22-Configuracion
+Clases de configuracion del sistema de la aplicacion
+
+## 23-modelos
+Creacion de una clase modelo para base de datos postgres con SQL Alchemy
