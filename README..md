@@ -70,3 +70,12 @@ Clases de configuracion del sistema de la aplicacion
 
 ## 23-modelos
 Creacion de una clase modelo para base de datos postgres con SQL Alchemy
+
+## 24-crear_registro
+Crear un nuevo registro del modelo en la base de datos
+
+## 25-passwords_encriptadas
+Almacenar contraseñas de manera encriptada
+
+## 26-autenticacion
+Autenticacion de un usuario registrado

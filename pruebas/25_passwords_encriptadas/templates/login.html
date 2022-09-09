@@ -1,0 +1,30 @@
+{% extends 'base/base.html' %}
+
+{% block title %} {{ title}} {% endblock %}
+
+{% block content %}
+
+    {% from "_macro.html" import render_field%}
+
+<div class="card" style="margin-left: 20%; margin-right: 20%; margin-top: 5%;">
+  <div class="card-body">
+      <form name="sentMessage" id="contactForm" method="post">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+          <div class="mb-3">
+            {{ render_field(form.username, class='form-control')}}
+          </div>
+          <br>
+          <div class="mb-3">
+            {{ render_field(form.password, class='form-control')}}
+          </div>
+          <br>
+          <div class="row">
+                    <div class="form-group col-xs-12">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+          </div>
+      </form>
+  </div>
+</div>
+
+{% endblock %}
