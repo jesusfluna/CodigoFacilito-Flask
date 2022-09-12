@@ -83,5 +83,17 @@ Autenticacion de un usuario registrado
 ## 27-form_override
 Comprobacion de usuario ya registrado en el mismo formulario
 
-## 27-uno_muchos
+## 28-uno_muchos
 Relaciones uno a muchos
+
+## 29-paginacion
+Gestion de la paginacion de elementos
+
+## 30-helpers
+Gestion de helpers (uso de funcion en la vista)
+
+## 31-send_mail
+Envio de emails (hay que especificar en el config.py el mail y la passw)
+
+## 32-thread_mail
+Creacion de un hilo para el envio del mail anterior

@@ -1,0 +1,15 @@
+{% macro render_field(field) %}
+
+    <td>{{ field.label}}
+    <dd>{{ field(**kwargs)|safe}}
+
+        <!-- comprobamos si hay errores en el formulario y los mostramos al usuario.-->
+        {% if  field.errors %}
+        <ul>
+            {% for error in field.errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+{% endmacro %}
