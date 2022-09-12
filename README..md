@@ -79,3 +79,9 @@ Almacenar contraseñas de manera encriptada
 
 ## 26-autenticacion
 Autenticacion de un usuario registrado
+
+## 27-form_override
+Comprobacion de usuario ya registrado en el mismo formulario
+
+## 27-uno_muchos
+Relaciones uno a muchos
